@@ -3,7 +3,7 @@ import random
 lst = ['robot'] * 10
 lst += ['human'] * 10
 random.shuffle(lst)
-print(1st)
+print(lst)
 print()
 data = pd.DataFrame({'whoAmI':lst})
 data.loc[data['whoAmI'] == 'robot', 'robot_group'] = '1'
